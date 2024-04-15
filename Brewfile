@@ -1,6 +1,6 @@
-tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-fonts"
+tap "homebrew/cask"
+tap "homebrew/bundle"
 tap "ariga/tap"
 tap "dbt-labs/dbt"
 tap "derailed/k9s"
