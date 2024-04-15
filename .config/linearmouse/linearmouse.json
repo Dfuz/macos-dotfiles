@@ -1,0 +1,489 @@
+{
+  "schemes" : [
+    {
+      "scrolling" : {
+        "modifiers" : {
+          "horizontal" : {
+            "option" : {
+              "type" : "preventDefault"
+            }
+          },
+          "vertical" : {
+            "shift" : {
+              "type" : "auto"
+            },
+            "option" : {
+              "type" : "auto"
+            },
+            "command" : {
+              "type" : "auto"
+            },
+            "control" : {
+              "type" : "auto"
+            }
+          }
+        },
+        "acceleration" : 0.4
+      },
+      "buttons" : {
+        "universalBackForward" : true,
+        "mappings" : [
+          {
+            "button" : 3,
+            "shift" : false,
+            "action" : "missionControl.spaceLeft",
+            "control" : false,
+            "option" : false,
+            "command" : false
+          },
+          {
+            "option" : false,
+            "action" : "missionControl.spaceRight",
+            "control" : false,
+            "command" : false,
+            "button" : 4,
+            "shift" : false
+          }
+        ]
+      },
+      "if" : {
+        "device" : {
+          "productID" : "0xc52b",
+          "vendorID" : "0x46d",
+          "category" : "mouse",
+          "productName" : "USB Receiver"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 1.5527,
+        "speed" : 0.0422
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "vendorID" : "0x46d",
+          "productID" : "0xc52b",
+          "category" : "mouse",
+          "productName" : "USB Receiver"
+        },
+        "app" : "com.googlecode.iterm2"
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        }
+      }
+    },
+    {
+      "if" : {
+        "app" : "com.microsoft.VSCode",
+        "device" : {
+          "category" : "mouse",
+          "vendorID" : "0x46d",
+          "productID" : "0xc52b",
+          "productName" : "USB Receiver"
+        }
+      },
+      "scrolling" : {
+        "speed" : 0,
+        "acceleration" : 0.4,
+        "distance" : "auto",
+        "modifiers" : {
+          "horizontal" : {
+            "shift" : {
+              "type" : "preventDefault"
+            },
+            "option" : {
+              "type" : "preventDefault"
+            },
+            "command" : {
+              "type" : "preventDefault"
+            },
+            "control" : {
+              "type" : "preventDefault"
+            }
+          },
+          "vertical" : {
+            "option" : {
+              "type" : "auto"
+            },
+            "command" : {
+              "type" : "auto"
+            },
+            "control" : {
+              "type" : "auto"
+            },
+            "shift" : {
+              "type" : "auto"
+            }
+          }
+        }
+      }
+    },
+    {
+      "scrolling" : {
+        "modifiers" : {
+          "vertical" : {
+            "command" : {
+              "type" : "zoom"
+            },
+            "control" : {
+              "type" : "preventDefault"
+            }
+          }
+        }
+      },
+      "if" : {
+        "device" : {
+          "productName" : "USB Receiver",
+          "vendorID" : "0x46d",
+          "productID" : "0xc52b",
+          "category" : "mouse"
+        },
+        "app" : "com.google.Chrome"
+      }
+    },
+    {
+      "scrolling" : {
+        "modifiers" : {
+          "vertical" : {
+            "command" : {
+              "type" : "zoom"
+            },
+            "control" : {
+              "type" : "preventDefault"
+            }
+          }
+        }
+      },
+      "if" : {
+        "app" : "com.lujjjh.LinearMouse",
+        "device" : {
+          "vendorID" : "0x46d",
+          "category" : "mouse",
+          "productID" : "0xc52b",
+          "productName" : "USB Receiver"
+        }
+      }
+    },
+    {
+      "if" : {
+        "app" : "com.boardmix.international",
+        "device" : {
+          "category" : "mouse",
+          "productName" : "USB Receiver",
+          "vendorID" : "0x46d",
+          "productID" : "0xc52b"
+        }
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 0.4
+        },
+        "modifiers" : {
+          "vertical" : {
+            "command" : {
+              "type" : "auto"
+            },
+            "control" : {
+              "type" : "preventDefault"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if" : {
+        "app" : "com.apple.mail",
+        "device" : {
+          "productName" : "USB Receiver",
+          "category" : "mouse",
+          "productID" : "0xc52b",
+          "vendorID" : "0x46d"
+        }
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 0.7
+        }
+      }
+    },
+    {
+      "buttons" : {
+        "mappings" : [
+          {
+            "command" : false,
+            "shift" : false,
+            "button" : 3,
+            "control" : false,
+            "action" : "missionControl.spaceLeft",
+            "option" : false
+          },
+          {
+            "button" : 4,
+            "control" : false,
+            "option" : false,
+            "shift" : false,
+            "action" : "missionControl.spaceRight",
+            "command" : false
+          }
+        ]
+      },
+      "if" : {
+        "device" : {
+          "productID" : "0xc53f",
+          "category" : "mouse",
+          "productName" : "USB Receiver",
+          "vendorID" : "0x46d"
+        }
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "reverse" : {
+          "vertical" : true
+        },
+        "distance" : {
+          "vertical" : "auto"
+        },
+        "speed" : {
+          "vertical" : 3
+        },
+        "modifiers" : {
+          "vertical" : {
+            "control" : {
+              "type" : "auto"
+            },
+            "option" : {
+              "type" : "auto"
+            },
+            "command" : {
+              "type" : "auto"
+            },
+            "shift" : {
+              "type" : "auto"
+            }
+          }
+        }
+      },
+      "pointer" : {
+        "speed" : 0.12,
+        "disableAcceleration" : false,
+        "acceleration" : 1.4
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "vendorID" : "0x46d",
+          "category" : "mouse",
+          "productName" : "USB Receiver",
+          "productID" : "0xc53f"
+        },
+        "app" : "com.google.Chrome"
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "reverse" : {
+          "vertical" : true,
+          "horizontal" : false
+        },
+        "modifiers" : {
+          "vertical" : {
+            "command" : {
+              "type" : "zoom"
+            },
+            "option" : {
+              "scale" : 2,
+              "type" : "changeSpeed"
+            },
+            "control" : {
+              "type" : "zoom"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if" : {
+        "app" : "com.microsoft.edgemac",
+        "device" : {
+          "vendorID" : "0x46d",
+          "productID" : "0xc53f",
+          "category" : "mouse",
+          "productName" : "USB Receiver"
+        }
+      },
+      "scrolling" : {
+        "modifiers" : {
+          "vertical" : {
+            "command" : {
+              "type" : "zoom"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0xc53f",
+          "vendorID" : "0x46d",
+          "productName" : "USB Receiver"
+        },
+        "app" : "md.obsidian"
+      },
+      "scrolling" : {
+        "modifiers" : {
+          "vertical" : {
+            "option" : {
+              "type" : "auto"
+            },
+            "shift" : {
+              "type" : "auto"
+            },
+            "control" : {
+              "type" : "auto"
+            },
+            "command" : {
+              "type" : "auto"
+            }
+          }
+        },
+        "acceleration" : {
+          "vertical" : 1
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "vendorID" : "0x46d",
+          "productName" : "USB Receiver",
+          "category" : "mouse",
+          "productID" : "0xc53f"
+        },
+        "app" : "com.apple.Preview"
+      },
+      "scrolling" : {
+        "modifiers" : {
+          "vertical" : {
+            "command" : {
+              "type" : "zoom"
+            }
+          }
+        },
+        "acceleration" : {
+          "vertical" : 1
+        }
+      }
+    },
+    {
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1.22
+        },
+        "speed" : {
+          "vertical" : 10
+        },
+        "modifiers" : {
+          "vertical" : {
+            "command" : {
+              "type" : "zoom"
+            },
+            "shift" : {
+              "type" : "auto"
+            },
+            "option" : {
+              "type" : "auto"
+            },
+            "control" : {
+              "type" : "zoom"
+            }
+          }
+        }
+      },
+      "if" : {
+        "app" : "com.apple.dt.Xcode",
+        "device" : {
+          "productName" : "USB Receiver",
+          "vendorID" : "0x46d",
+          "productID" : "0xc53f",
+          "category" : "mouse"
+        }
+      }
+    },
+    {
+      "scrolling" : {
+        "speed" : {
+          "vertical" : 0.64
+        },
+        "reverse" : {
+          "vertical" : true
+        },
+        "acceleration" : {
+          "vertical" : 0.5
+        }
+      },
+      "if" : {
+        "device" : {
+          "productID" : "0xc548",
+          "category" : "mouse",
+          "vendorID" : "0x46d",
+          "productName" : "USB Receiver"
+        }
+      },
+      "buttons" : {
+        "mappings" : [
+          {
+            "command" : false,
+            "button" : 3,
+            "shift" : false,
+            "control" : false,
+            "option" : false,
+            "action" : "missionControl.spaceLeft"
+          },
+          {
+            "command" : false,
+            "shift" : false,
+            "control" : false,
+            "option" : false,
+            "action" : "missionControl.spaceRight",
+            "button" : 4
+          }
+        ]
+      },
+      "pointer" : {
+        "disableAcceleration" : false,
+        "acceleration" : 0.8108,
+        "speed" : 0.0801
+      }
+    },
+    {
+      "if" : {
+        "app" : "com.google.Chrome",
+        "device" : {
+          "productName" : "USB Receiver",
+          "vendorID" : "0x46d",
+          "productID" : "0xc548",
+          "category" : "mouse"
+        }
+      },
+      "scrolling" : {
+        "modifiers" : {
+          "vertical" : {
+            "command" : {
+              "type" : "zoom"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.9.5"
+}
