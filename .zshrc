@@ -142,3 +142,7 @@ eval "$(zoxide init zsh --cmd cd)"
 
 export PATH="$PATH:/Users/vdperfilev/Library/Python/3.9/bin"
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
+# GPG setup
+GPG_TTY=$(tty)
+export GPG_TTY
